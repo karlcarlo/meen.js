@@ -1,0 +1,15 @@
+.DS_Store
+.nodemonignore
+.sass-cache/
+node_modules/
+public/lib
+test/bower_components/
+.sass-cache/
+public/.tmp/
+
+public/scripts/controllers/user*.js
+public/scripts/models/user*.js
+public/scripts/routes/user*.js
+public/scripts/views/user*.js
+public/templates/user/
+public/templates/user*.hbs

@@ -1,0 +1,34 @@
+//- build:js(app) scripts/components.js
+script(type='text/javascript' src='/lib/jquery/jquery.js')
+script(type='text/javascript' src='/lib/handlebars/handlebars.runtime.js')
+script(type='text/javascript' src='/lib/ember/ember.js')
+script(type='text/javascript' src='/lib/ember-data-shim/ember-data.js')
+//- endbuild
+
+//- build:js(.tmp) scripts/templates.js
+script(type='text/javascript' src='/.tmp/scripts/compiled-templates.js')
+//- endbuild
+
+//- build:js(.tmp) scripts/main.js
+script(type='text/javascript' src='/.tmp/scripts/combined-scripts.js')
+//- endbuild
+
+//- build:js scripts/plugins.js
+script(type='text/javascript' src='/lib/momentjs/moment.js')
+script(type='text/javascript' src='/lib/bootstrap-sass/js/affix.js')
+script(type='text/javascript' src='/lib/bootstrap-sass/js/alert.js')
+script(type='text/javascript' src='/lib/bootstrap-sass/js/dropdown.js')
+script(type='text/javascript' src='/lib/bootstrap-sass/js/tooltip.js')
+script(type='text/javascript' src='/lib/bootstrap-sass/js/modal.js')
+script(type='text/javascript' src='/lib/bootstrap-sass/js/transition.js')
+script(type='text/javascript' src='/lib/bootstrap-sass/js/button.js')
+script(type='text/javascript' src='/lib/bootstrap-sass/js/popover.js')
+script(type='text/javascript' src='/lib/bootstrap-sass/js/carousel.js')
+script(type='text/javascript' src='/lib/bootstrap-sass/js/scrollspy.js')
+script(type='text/javascript' src='/lib/bootstrap-sass/js/collapse.js')
+script(type='text/javascript' src='/lib/bootstrap-sass/js/tab.js')
+//- endbuild
+
+if (process.env.NODE_ENV == 'development')
+    //Livereload script rendered
+    script(type='text/javascript', src='http://' + req.host + ':35729/livereload.js')
