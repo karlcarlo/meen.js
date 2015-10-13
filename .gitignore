@@ -6,6 +6,7 @@ public/lib
 test/bower_components/
 .sass-cache/
 public/.tmp/
+npm-debug.log
 
 public/scripts/controllers/user*.js
 public/scripts/models/user*.js

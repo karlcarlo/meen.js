@@ -282,7 +282,7 @@ module.exports = function(grunt) {
 
     grunt.registerTask('test', [
         'clean:server',
-        'replace:app',
+        // 'replace:app',
         'concurrent:test',
         'connect:test',
         'neuter:app',
@@ -291,7 +291,7 @@ module.exports = function(grunt) {
 
     grunt.registerTask('build', [
         'clean:dist',
-        'replace:dist',
+        // 'replace:dist',
         'useminPrepare',
         'concurrent:dist',
         'neuter:app',

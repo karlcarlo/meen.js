@@ -5,8 +5,8 @@
         "ember": "1.2.0",
         "ember-data-shim": "1.0.0-beta.2",
         "bootstrap-sass": "~3.0.0",
-        "font-awesome": "latest",
-        "momentjs": "latest"
+        "font-awesome": "*",
+        "momentjs": "*"
     },
     "resolutions": {
         "ember": "1.0.0"
